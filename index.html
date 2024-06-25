@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CupomdaOficial</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: hwb(0 100% 0%);
+            color: #0c0c0b;
+        }
+
+        header {
+            background: yellow;
+            color: #070707;
+            padding: 1rem 0;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        header h1 img {
+            height: 50px;
+            margin-right: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            color: #070707;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 2rem 0;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        section p, section ul {
+            margin: 0 0 1rem 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #0056b3;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-list img {
+            width: 50px;
+            height: auto;
+            margin-right: 1rem;
+            vertical-align: middle;
+        }
+
+        .update-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .update-list li {
+            margin-bottom: 2rem;  
+            border-bottom: 1px solid  hwb(0 100% 0%);
+            padding-bottom: 1rem;
+        }
+
+        .update-list h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+        }
+
+        .update-list p {
+            margin: 0;
+        }
+
+        footer {
+            background: yellow;
+            color: #070707;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            header .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                flex-direction: column;
+                margin: 1rem 0 0 0;
+            }
+
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+
+
+
+
+
+
+        /* Estilos para o layout de imagem e texto lado a lado */
+#image-text {
+    padding: 2rem 0; /* Espaçamento interno */
+    background-color: hsl(0, 0%, 100%); /* Cor de fundo opcional para destacar a seção */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.image-text-wrapper {
+    display: flex;
+    align-items: center; /* Alinha verticalmente no centro */
+}
+
+.image {
+    flex: 1; /* A imagem ocupa metade do espaço disponível */
+    padding-right: 1rem; /* Espaçamento à direita da imagem */
+}
+
+.image img {
+    width: 100%; /* A imagem ocupa todo o espaço disponível na sua área */
+    height: auto; /* Altura automática, mantém a proporção */
+}
+
+.text {
+    flex: 1; /* O texto ocupa metade do espaço disponível */
+}
+
+.text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img src="img/logo1.png" alt="Logo"> 
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#features">Benefícios</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Bem-vindo ao Cupom da Vez</h2>
+                <img src="img/bainer.jpeg" alt="Imagem de boas-vindas" class="hero-image">
+               <center> <p>Ganhe dinheiro digitando códigos de barras de forma simples e acessível.</p> </center>
+                <center><a href="https://wa.me/5511913250793" class="cta-button">Duvidas</a></center>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <section id="about">
+                    <div class="container">
+                        <p id="about-text">
+                            <img src="img/bainer2.jpeg" alt="cupom da Vez é uma plataforma inovadora que oferece uma oportunidade simples e acessível" class="hero-image">
+                        </p>
+                        
+                    </div>
+                </section>
+                
+               
+                
+                <center><h2>Se tiver duvidas fale com um de nossos atendentes</h2></center>
+                <center> <a href="https://wa.me/5511913250793" class="cta-button">Fale com um de nossos atendentes </a> </center>
+            </div>
+        </section>
+
+            
+
+
+        <section id="image-text">
+            <div class="container">
+                <div class="image-text-wrapper">
+                    <div class="image">
+                        <img src="img/selo.png" alt="Descrição da imagem">
+                    </div>
+                    <div class="text">
+                        <h2>Garantia de Satisfação do Cupom da Vez</h2>
+                        <p>
+                            Para garantir sua total confiança na sua decisão, oferecemos uma garantia de satisfação de 7 dias. Isso significa que se, por qualquer motivo, você não estiver completamente satisfeito(a) com o aplicativo durante esse período, você pode solicitar o reembolso integral do seu investimento sem qualquer complicação ou perguntas.
+                        </p>
+                        <p>
+                           
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+
+        <section id="features">
+            <div class="container">
+                <h2>Benefícios</h2>
+                <ul class="feature-list">
+                    <li>
+                        <img src="img/ganho.png" alt="Ícone de dinheiro">
+                        <strong>Ganho de dinheiro:</strong> Os usuários têm a chance de ganhar dinheiro real apenas digitando códigos de barras, oferecendo uma oportunidade de renda extra de forma simples e acessível.
+                    </li>
+                    <li>
+                        <img src="img/facilidade.png" alt="Ícone de facilidade de uso">
+                        <strong>Facilidade de uso:</strong> A interface intuitiva do aplicativo torna o processo de digitar códigos de barras simples e rápido, possibilitando que qualquer pessoa possa participar.
+                    
+                </ul>
+                <p>Em resumo, o Cupom da Vez é uma plataforma que combina simplicidade, conveniência e oportunidade, oferecendo aos usuários uma maneira fácil e eficaz de ganhar dinheiro extra através da digitalização de códigos de barras, com a flexibilidade de receber os ganhos através do Pix.</p>
+            </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy;  2024 Todos os direitos reservados
+
+                Cupom da Vez
+                
+                Políticas de Privacidade
+                
+                Termos de Uso.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
